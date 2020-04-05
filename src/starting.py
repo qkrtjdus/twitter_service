@@ -30,7 +30,7 @@ from bs4 import BeautifulSoup
 #temp_check=str(datas).split()[1].split('>')[1].split('<')[0]
 
 
-cur.execute("INSERT INTO board Values('{}','{}','{}')".format('2020-04-02','9,976','5,828'))
+cur.execute("INSERT INTO board Values('{}','{}','{}')".format('2020-04-05','10,237','6,463'))
 #cur.execute("INSERT INTO board Values('{}','{}','{}')".format(temp_date,temp_count,temp_check))
 #con.commit()
 
