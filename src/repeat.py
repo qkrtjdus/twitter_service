@@ -1,18 +1,3 @@
-import sqlite3
-con = sqlite3.connect('./test.db')
-cur = con.cursor()
-con.commit()
-
-import twitter
-api = twitter.Api(consumer_key='n7gdz1re4vmP08sO5ShEnElEL',
-          consumer_secret='i4R4BVFDjPxZXnUgl2DgNnaPfW3PTCsnAG6Q6NhM4oSaZIXGVq',
-          access_token_key='827053351602946049-ugZosLA83sRGgOfz7mUh2C4ROUQf8ay',
-          access_token_secret='MMqHnvbDEnM239GzKVLrvGpLLe9j4d5K56qfOVcFTCkV9')
-
-import datetime
-import urllib.request
-from bs4 import BeautifulSoup
-
 now = datetime.datetime.now()
 temp_date=now.strftime('%Y-%m-%d')
 
